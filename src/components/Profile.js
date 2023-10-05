@@ -14,7 +14,7 @@ function Profile() {
     >
       <Avatar
         src="/bilde-av-blomst.jpeg"
-        alt="Blomst"
+        alt="blomst"
         sx={{
           width: 150,
           height: 150,
@@ -23,7 +23,8 @@ function Profile() {
         }}
       />
       <Typography variant="h4" gutterBottom color="#3f51b5">
-        Tilfeldig fin blomst
+        Kul blomst
+
       </Typography>
     </Stack>
   );
