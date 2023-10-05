@@ -34,7 +34,7 @@ function ContactForm() {
         },
         body: JSON.stringify({
           ...formData,
-          access_key: "HER-MÅ-DU-LEGGE-INN-DIN-ACCESS-KEY", // Get your access key from https://web3forms.com/
+          access_key: "d1f9f91d-825d-4abc-a073-ead3d5947fe1", // Get your access key from https://web3forms.com/
         }),
       });
 
