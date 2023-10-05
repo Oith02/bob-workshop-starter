@@ -59,14 +59,14 @@ function ContactForm() {
   };
 
   return (
-    <Box py={5} bgcolor="#ffffff" borderRadius={3} boxShadow={3} mt={4} px={3}>
+    <Box py={5} bgcolor="#8a7994" borderRadius={3} boxShadow={3} mt={4} px={3}>
       <Typography variant="h6" gutterBottom color="#3f51b5">
-        Kontakt Meg
+        Kontakt min mor
       </Typography>
 
       <Stack component="form" onSubmit={handleSubmit} spacing={2}>
         <TextField
-          label="Din e-post"
+          label="Din post"
           variant="outlined"
           fullWidth
           margin="normal"
